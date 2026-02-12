@@ -1,0 +1,67 @@
+version: 2
+
+models:
+
+  - name: stg_localbike__brands
+    description: 
+    columns:
+      - name: brand_id
+        tests:
+            - unique
+            - not_null
+
+  - name: stg_localbike__categories
+    description: 
+    columns:
+      - name: category_id
+        tests:
+            - unique
+            - not_null
+    
+  - name: stg_localbike__customers
+    description: 
+    columns:
+      - name: customer_id
+        tests:
+            - unique
+            - not_null
+
+  - name: stg_localbike__orders
+    description: 
+    columns:
+      - name: order_id
+        tests:
+            - unique
+            - not_null
+    
+  - name: stg_localbike__products
+    description: 
+    columns:
+      - name: product_id
+        tests:
+            - unique
+            - not_null
+    
+  - name: stg_localbike__staffs
+    description: 
+    columns:
+      - name: staff_id
+        tests:
+            - unique
+            - not_null
+    
+  - name: stg_localbike__stocks
+    description: 
+    columns:
+      - name: stock_id
+        tests:
+            - unique
+            - not_null
+  
+  - name: stg_localbike__stores
+    description: 
+    columns:
+      - name: store_id
+        tests:
+            - unique
+            - not_null
