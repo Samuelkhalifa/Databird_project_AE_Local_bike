@@ -29,6 +29,7 @@ ranked_products AS (
         products_details_in_orders
 )
 
+
 SELECT
     *
 FROM
